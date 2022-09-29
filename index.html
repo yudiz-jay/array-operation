@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <input type="number" placeholder="input" id="txtInput">
+                </td>
+                
+                
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" id="btnAdd" onclick="addElement()">ADD</button>
+                    <button type="submit" id="btnDelete" onclick="deleteElement()">Delete</button>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" id="btnPairs" class="btnGroup" onclick="pair()">Pairs</button>
+                    <button type="submit" id="btnG10" class="btnGroup" onclick="greater()">> 10</button>
+                    <button type="submit" id="btnSequence" class="btnGroup" onclick="sequence()">Sequence</button>
+                </td>
+            </tr>
+            <tr>
+                <td><h3>Array Elements : </h3></td>
+                <td><h3 id="lblArrayElement"></h3></td>
+            </tr>
+            <tr>
+                <td><h3>Number of Pairs : </h3></td>
+                <td><h3 id="lblPairs"></h3></td>
+            </tr>
+            <tr>
+                <td><h3>> 10 values are :</h3></td>
+                <td><h3 id="lblGreater"></h3></td>
+            </tr>
+            <tr>
+                <td><h3>any 5 numbers in sequence are:</h3></td>
+                <td><h3 id="lblSequence"></h3></td>
+            </tr>
+            <tr>
+                <td><h3>Total:</h3></td>
+                <td><h3 id="lblSum"></h3></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>

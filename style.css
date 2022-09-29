@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: white;
+}
+div{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+}
+.btnGroup{
+    background-color: Blue;
+    border-radius: 5px;
+    
+}
+
+button{
+    color: white;
+    background-color: black;
+    cursor:pointer;
+    height: 50px;
+    width: 100px;
+}
+
+input{
+    width:500px;
+    height: 30px;
+}
+
